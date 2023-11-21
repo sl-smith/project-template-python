@@ -54,7 +54,8 @@ pdm run failprint -- grep 'v0\.1\.1' CHANGELOG.md
 pdm run failprint -- grep 'Features' CHANGELOG.md
 pdm run failprint -- grep 'Bug Fixes' CHANGELOG.md
 echo
-git commit -m "docs: updated changelog"
+git add pdm.lock
+git commit -m "fix: adding lock file"
 git status
 
 echo
