@@ -66,9 +66,10 @@ git add pdm.lock
 git commit -m "fix: adding lock file"
 git status
 
-echo
-echo "///////////////////////////////////////////"
-echo "             UPDATING PROJECT"
-echo "///////////////////////////////////////////"
-echo
-copier update -f --trust
+# TODO deal with updating only works for git-tracked templates
+# echo
+# echo "///////////////////////////////////////////"
+# echo "             UPDATING PROJECT"
+# echo "///////////////////////////////////////////"
+# echo
+# copier update -f --trust
