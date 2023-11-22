@@ -57,6 +57,7 @@ echo
 git add pdm.lock
 git commit -m "fix: adding lock file"
 git status
+git reset HEAD --hard
 
 echo
 echo "///////////////////////////////////////////"
